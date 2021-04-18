@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-places-autocomplete/dist/PlacesAutocomplete.js b/node_modules/react-places-autocomplete/dist/PlacesAutocomplete.js
+index 7524288..c7887b8 100644
+--- a/node_modules/react-places-autocomplete/dist/PlacesAutocomplete.js
++++ b/node_modules/react-places-autocomplete/dist/PlacesAutocomplete.js
+@@ -241,6 +241,10 @@ var PlacesAutocomplete = function (_React$Component) {
+       }
+     };
+
++    this.handleInputOnFocus = function () {
++      _this.fetchPredictions();
++    }
++
+     _this.getActiveSuggestionId = function () {
+       var activeSuggestion = _this.getActiveSuggestion();
+       return activeSuggestion ? 'PlacesAutocomplete__suggestion-' + activeSuggestion.placeId : undefined;
+@@ -274,6 +278,7 @@ var PlacesAutocomplete = function (_React$Component) {
+       return _extends({}, defaultInputProps, options, {
+         onKeyDown: (0, _helpers.compose)(_this.handleInputKeyDown, options.onKeyDown),
+         onBlur: (0, _helpers.compose)(_this.handleInputOnBlur, options.onBlur),
++        onFocus: (0, _helpers.compose)(_this.handleInputOnFocus, options.onFocus),
+         value: _this.props.value,
+         onChange: function onChange(event) {
+           _this.handleInputChange(event);

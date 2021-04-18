@@ -1,0 +1,51 @@
+{
+  "name": "auto-descriptions-web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "type-check": "tsc",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-pattern='!.*' --quiet --fix",
+    "postinstall": "patch-package",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.11.3",
+    "@tailwindcss/forms": "^0.3.2",
+    "formik": "^2.2.6",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "postcss": "^8.2.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-places-autocomplete": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-places-autocomplete": "^7.2.6",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.7.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "patch-package": "^6.4.7",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "tailwindcss": "^2.1.1",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}

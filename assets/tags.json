@@ -1,0 +1,101 @@
+[{
+  "id": "general",
+  "label": "General",
+  "color": "purple",
+  "min": 3,
+  "max": 5,
+  "tags": [
+    "Classic Edwardian",
+    "Victorian",
+    "Luxurious",
+    "Spacious",
+    "Open floor plan",
+    "Single level floor plan",
+    "Newly remodeled",
+    "City views",
+    "Lots of light",
+    "Ranch-style"
+  ]
+}, {
+  "id": "kitchen",
+  "label": "Kitchen",
+  "color": "yellow",
+  "min": 3,
+  "max": 5,
+  "tags": [
+    "Quartz counters",
+    "Chef-grade",
+    "Granite counters",
+    "Stainless steel appliances",
+    "Gas range",
+    "Kitchen island",
+    "Breakfast bar",
+    "Soft-close cabinets",
+    "Electric stove",
+    "Pendant light"
+  ]
+}, {
+  "id": "bathrooms",
+  "label": "Bathrooms",
+  "color": "pink",
+  "min": 3,
+  "max": 5,
+  "tags": [
+    "Remodeled bathroom",
+    "Dual vanity bathroom",
+    "Private bath",
+    "Shared guest bath",
+    "Bathroom granite counters",
+    "Soaking tub",
+    "Washer and dryer"
+  ]
+}, {
+  "id": "rooms",
+  "label": "Other rooms",
+  "color": "indigo",
+  "min": 3,
+  "max": 5,
+  "tags": [
+    "Walk-in closet",
+    "Office nook",
+    "Fireplace in living room",
+    "Freshly painted",
+    "Hardwood floors",
+    "Marble floors",
+    "Recessed lighting",
+    "Wood-burning fireplace",
+    "Central heating",
+    "New laminate flooring",
+    "Air conditioning",
+    "Vaulted ceilings"
+  ]
+}, {
+  "id": "outdoor",
+  "label": "Outdoor spaces",
+  "color": "green",
+  "min": 3,
+  "max": 5,
+  "tags": [
+    "Outdoor balcony",
+    "Garden patio",
+    "Garage",
+    "Balcony",
+    "Shared garden",
+    "Private pool",
+    "Sprinklers",
+    "Garage door opener",
+    "Covered back patio",
+    "Backyard oasis"
+  ]
+}, {
+  "id": "other",
+  "label": "Miscellaneous (amenities, etc)",
+  "color": "blue",
+  "tags": [
+    "Easy parking outside",
+    "Shared olymic sized pool",
+    "Plumbing recently upgraded",
+    "24 hour security",
+    "Shared gym"
+  ]
+}]
